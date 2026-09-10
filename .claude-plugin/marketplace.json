@@ -8,6 +8,27 @@
   },
   "plugins": [
     {
+      "name": "romhacking",
+      "source": {
+        "source": "github",
+        "repo": "sadnescity/romhacking-claude-plugin"
+      },
+      "description": "ROM hacking method for game translation: a guided, gated workflow from unknown target to shipped patch. Thirty skills covering text discovery, tables, control codes, DTE/MTE, pointers, compression, archives, disc images, expansion, graphics, fonts, VWF, accented glyphs, assembly hooks, glossary, QA and patching. Orchestrates the emulator plugins rather than duplicating them.",
+      "version": "1.1.0",
+      "license": "MIT",
+      "keywords": [
+        "rom-hacking",
+        "translation",
+        "romhacking",
+        "fan-translation",
+        "method",
+        "text-extraction",
+        "pointers",
+        "compression",
+        "patching"
+      ]
+    },
+    {
       "name": "psx-spx",
       "source": {
         "source": "github",
@@ -16,7 +37,14 @@
       "description": "Complete PSX hardware reference archived from psx-spx.consoledev.net. CPU, GPU, memory, DMA, CDROM, SPU, GTE, MDEC, controllers, BIOS, and more.",
       "version": "1.0.0",
       "license": "CC0-1.0",
-      "keywords": ["psx", "playstation", "hardware", "reference", "reverse-engineering", "rom-hacking"]
+      "keywords": [
+        "psx",
+        "playstation",
+        "hardware",
+        "reference",
+        "reverse-engineering",
+        "rom-hacking"
+      ]
     },
     {
       "name": "ghidra",
@@ -27,7 +55,13 @@
       "description": "GhidraMCP integration for Claude Code: MCP server configuration and reverse engineering reference. Decompile, analyze, and annotate binaries in Ghidra via 48 MCP tools.",
       "version": "1.1.0",
       "license": "Apache-2.0",
-      "keywords": ["ghidra", "reverse-engineering", "decompiler", "mcp", "binary-analysis"]
+      "keywords": [
+        "ghidra",
+        "reverse-engineering",
+        "decompiler",
+        "mcp",
+        "binary-analysis"
+      ]
     },
     {
       "name": "duckstation",
@@ -38,7 +72,15 @@
       "description": "DuckStation PS1 emulator MCP integration for Claude Code: runtime debugging, memory inspection, GPU/SPU state, breakpoints, VRAM watches, controller automation. 95 MCP tools.",
       "version": "1.1.0",
       "license": "GPL-3.0",
-      "keywords": ["duckstation", "ps1", "playstation", "emulator", "debugging", "mcp", "reverse-engineering"]
+      "keywords": [
+        "duckstation",
+        "ps1",
+        "playstation",
+        "emulator",
+        "debugging",
+        "mcp",
+        "reverse-engineering"
+      ]
     },
     {
       "name": "armips",
@@ -49,7 +91,18 @@
       "description": "armips assembler reference for Claude Code: MIPS (R3000/R4000/Allegrex/RSP/EE) and ARM (ARM7/ARM9/THUMB) instruction sets, directives, expressions, macros, ROM hacking workflows, and project scaffolding.",
       "version": "1.1.0",
       "license": "MIT",
-      "keywords": ["armips", "assembler", "mips", "arm", "rom-hacking", "reverse-engineering", "psx", "psp", "gba", "nds"]
+      "keywords": [
+        "armips",
+        "assembler",
+        "mips",
+        "arm",
+        "rom-hacking",
+        "reverse-engineering",
+        "psx",
+        "psp",
+        "gba",
+        "nds"
+      ]
     },
     {
       "name": "mesence",
@@ -60,7 +113,18 @@
       "description": "MesenCE multi-system emulator MCP integration for Claude Code: runtime debugging, memory, disassembly, tracing, ROM hacking, text search. 57 MCP tools for NES/SNES/GB/GBA/PCE/SMS/WS.",
       "version": "3.0.0",
       "license": "GPL-3.0",
-      "keywords": ["mesen", "emulator", "nes", "snes", "gameboy", "gba", "debugging", "mcp", "reverse-engineering", "rom-hacking"]
+      "keywords": [
+        "mesen",
+        "emulator",
+        "nes",
+        "snes",
+        "gameboy",
+        "gba",
+        "debugging",
+        "mcp",
+        "reverse-engineering",
+        "rom-hacking"
+      ]
     },
     {
       "name": "ppsspp",
@@ -71,7 +135,16 @@
       "description": "PPSSPP PSP emulator MCP integration for Claude Code: CPU debugging, GPU/GE inspection, memory watchpoints, framebuffer dumps, texture/CLUT/depth/stencil inspection, GE display list disassembly, GE breakpoints, HLE module listing. 36 MCP tools for PSP reverse engineering.",
       "version": "2.1.0",
       "license": "GPL-2.0",
-      "keywords": ["ppsspp", "psp", "emulator", "debugging", "mcp", "reverse-engineering", "gpu", "rom-hacking"]
+      "keywords": [
+        "ppsspp",
+        "psp",
+        "emulator",
+        "debugging",
+        "mcp",
+        "reverse-engineering",
+        "gpu",
+        "rom-hacking"
+      ]
     },
     {
       "name": "exodus",
@@ -82,7 +155,39 @@
       "description": "Exodus Emulation Platform MCP integration for Claude Code: M68000/Z80 CPU debugging, memory read/write/search, disassembly, breakpoints, watchpoints, VDP state/sprites/palette/nametables/VRAM/CRAM/VSRAM, screenshot and pixel query. 26 MCP tools for Mega Drive/Genesis reverse engineering.",
       "version": "1.0.0",
       "license": "MIT",
-      "keywords": ["exodus", "mega-drive", "genesis", "sega", "emulator", "debugging", "mcp", "reverse-engineering", "m68000"]
+      "keywords": [
+        "exodus",
+        "mega-drive",
+        "genesis",
+        "sega",
+        "emulator",
+        "debugging",
+        "mcp",
+        "reverse-engineering",
+        "m68000"
+      ]
+    },
+    {
+      "name": "psp-doc",
+      "source": {
+        "source": "github",
+        "repo": "sadnescity/psp-doc-claude-plugin"
+      },
+      "description": "PSP hardware and software reference, assembled from the archived YAPSPD chapters and the uofw/upspd documents: Allegrex CPU and how it differs from the PSX R3000A, memory map, caches, hardware registers, exceptions, Graphics Engine, file formats and PRX relocations, modules, kernel and boot.",
+      "version": "1.0.0",
+      "license": "archived third-party documentation, credited to its authors",
+      "keywords": [
+        "psp",
+        "playstation-portable",
+        "allegrex",
+        "mips",
+        "hardware",
+        "reference",
+        "reverse-engineering",
+        "rom-hacking",
+        "prx",
+        "graphics-engine"
+      ]
     }
   ]
 }
