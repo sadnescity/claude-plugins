@@ -13,8 +13,8 @@
         "source": "github",
         "repo": "sadnescity/romhacking-claude-plugin"
       },
-      "description": "ROM hacking method for game translation: a guided, gated workflow from unknown target to shipped patch. Thirty skills covering text discovery, tables, control codes, DTE/MTE, pointers, compression, archives, disc images, expansion, graphics, fonts, VWF, accented glyphs, assembly hooks, glossary, QA and patching. Orchestrates the emulator plugins rather than duplicating them.",
-      "version": "1.1.0",
+      "description": "ROM hacking method for game translation: a guided, gated workflow from unknown target to shipped patch. Skills covering text discovery, tables, control codes, DTE/MTE, pointers, compression, archives, disc images, expansion, graphics, fonts, VWF, accented glyphs, assembly hooks, glossary, QA and patching — each explaining the subject before the procedure. Orchestrates the emulator plugins instead of duplicating them.",
+      "version": "1.0.0",
       "license": "MIT",
       "keywords": [
         "rom-hacking",
