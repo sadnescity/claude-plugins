@@ -35,7 +35,7 @@
         "repo": "sadnescity/psx-spx-claude-plugin"
       },
       "description": "Complete PSX hardware reference archived from psx-spx.consoledev.net. CPU, GPU, memory, DMA, CDROM, SPU, GTE, MDEC, controllers, BIOS, and more.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "license": "CC0-1.0",
       "keywords": [
         "psx",
@@ -153,7 +153,7 @@
         "repo": "sadnescity/exodus-claude-plugin"
       },
       "description": "Exodus Emulation Platform MCP integration for Claude Code: CPU debugging (M68000, Z80) with full registers, memory read/write/search, disassembly, breakpoints, memory watchpoints, VDP state/sprites/palette/nametables/VRAM/CRAM/VSRAM, and system control. 26 MCP tools for Mega Drive/Genesis reverse engineering.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "license": "MIT",
       "keywords": [
         "exodus",
@@ -174,7 +174,7 @@
         "repo": "sadnescity/psp-doc-claude-plugin"
       },
       "description": "PSP hardware and software reference, assembled from the archived YAPSPD chapters and the uofw/upspd documents: Allegrex CPU and how it differs from the PSX R3000A, memory map, caches, hardware registers, exceptions, Graphics Engine, file formats, modules, kernel and boot.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "license": "archived third-party documentation, credited to its authors",
       "keywords": [
         "psp",
